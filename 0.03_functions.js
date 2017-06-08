@@ -137,6 +137,3 @@ console.log(calcAnswer);
 
 
 
-
-
-
