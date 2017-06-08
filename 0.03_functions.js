@@ -91,6 +91,47 @@ function sodaTotal(cost, amount, tax) {
 var totalSodaCost = sodaTotal(0.99, 100, 0.07);
 console.log("Your sodas will cost you $" + totalSodaCost + ".");
 
+// Create a calculator function
+
+function calculator(num1, operator, num2) {
+	if(operator == "*") {
+		return num1*num2;
+	} else if(operator == "/") {
+		return num1/num2;
+	} else if(operator == "+") {
+		return num1+num2;
+	} else if(operator == "-") {
+		return num1-num2;
+	} else if(operator == "%") {
+		return num1%num2;
+	} else {
+		console.log("Error");
+	}
+}
+
+var calcAnswer = calculator(5, "-", 2);
+console.log(calcAnswer);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
