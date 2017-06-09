@@ -157,8 +157,8 @@ function Person(name, age, favoriteShows){
 		console.log(age+=1);
 	}
 	this.checkSimilarShows = function(thePerson){
-		for (i in favoriteShows){
-			for (j in thePerson.favoriteShows) {
+		for (var i in favoriteShows){
+			for (var j in thePerson.favoriteShows) {
 				if (favoriteShows[i] == thePerson.favoriteShows[j]){
 					console.log(favoriteShows[i])
 				}
