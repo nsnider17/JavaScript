@@ -7,12 +7,12 @@
 var myApp = {};
 
 myApp.name = {
-	"first-name": "Nick",
-	"last-name"	: "Snider"
+	firstName: "Nick",
+	lastName	: "Snider"
 };
 
 myApp.location = {
-	airline: "Soutwest",
+	airline: "Southwest",
 	number: 907,
 	departure: {
 		IATA: "IND",
@@ -25,3 +25,5 @@ myApp.location = {
 		city: "Los Angeles"
  	}
 };
+
+console.log(myApp.location.airline)
