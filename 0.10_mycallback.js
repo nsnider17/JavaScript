@@ -23,3 +23,12 @@ function getStates(filepath, done){
 getStates('0.10_mycallback.txt', function(states){
 	console.log(states)
 })
+
+
+console.log("Hi");
+
+var printInThreeSeconds = setTimeout(function(){
+	console.log("Hello");
+}, 1000);
+
+// console.log("hello");
